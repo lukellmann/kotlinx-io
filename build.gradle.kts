@@ -47,6 +47,8 @@ subprojects {
 
 apiValidation {
     ignoredProjects.add("kotlinx-io-benchmarks")
+
+    klibValidationEnabled = true
 }
 
 dependencies {
