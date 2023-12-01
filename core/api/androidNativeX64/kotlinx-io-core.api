@@ -137,6 +137,7 @@ final val kotlinx.io.files/SystemTemporaryDirectory // kotlinx.io.files/SystemTe
 final fun (kotlinx.io/RawSink).kotlinx.io/buffered(): kotlinx.io/Sink // kotlinx.io/buffered|buffered@kotlinx.io.RawSink(){}[0]
 final fun (kotlinx.io/RawSource).kotlinx.io/buffered(): kotlinx.io/Source // kotlinx.io/buffered|buffered@kotlinx.io.RawSource(){}[0]
 final fun kotlinx.io/discardingSink(): kotlinx.io/RawSink // kotlinx.io/discardingSink|discardingSink(){}[0]
+final fun (kotlinx.io/Buffer).kotlinx.io/dummyExt(): kotlin/Int // kotlinx.io/dummyExt|dummyExt@kotlinx.io.Buffer(){}[0]
 final fun (kotlinx.io/Buffer).kotlinx.io/indexOf(kotlinx.io.bytestring/ByteString, kotlin/Long =...): kotlin/Long // kotlinx.io/indexOf|indexOf@kotlinx.io.Buffer(kotlinx.io.bytestring.ByteString;kotlin.Long){}[0]
 final fun (kotlinx.io/Source).kotlinx.io/indexOf(kotlinx.io.bytestring/ByteString, kotlin/Long =...): kotlin/Long // kotlinx.io/indexOf|indexOf@kotlinx.io.Source(kotlinx.io.bytestring.ByteString;kotlin.Long){}[0]
 final fun (kotlinx.io/Buffer).kotlinx.io/indexOf(kotlin/Byte, kotlin/Long =..., kotlin/Long =...): kotlin/Long // kotlinx.io/indexOf|indexOf@kotlinx.io.Buffer(kotlin.Byte;kotlin.Long;kotlin.Long){}[0]
