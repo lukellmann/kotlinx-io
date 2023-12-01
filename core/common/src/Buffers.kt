@@ -76,3 +76,5 @@ public fun Buffer.indexOf(byte: Byte, startIndex: Long = 0, endIndex: Long = siz
         return -1L
     }
 }
+
+public fun Buffer.dummyExt(): Int = 42
